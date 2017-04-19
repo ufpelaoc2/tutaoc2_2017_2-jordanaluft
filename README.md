@@ -8,7 +8,6 @@ Primeiros passos com Github e Travis CI.
 
 - Nome completo: 
 - Username do Github: 
-- Badge do Travis CI:
 - Email @inf: 
 
 ## Objetivo 
@@ -22,13 +21,15 @@ Nesta disciplina, Github + Travis CI serão utilizados para o desenvolvimento e 
 ## Parte 1
 
 1. Crie uma conta no Github (se já não tiver uma).
-2. [Adicione uma chave pública SSH criada no seu computador no Github](https://git-scm.com/book/pt-br/v1/Git-no-Servidor-Gerando-Sua-Chave-Pública-SSH).
-2. Crie uma conta no Travis CI (se já não tiver uma).
-3. Entre em https://classroom.github.com e selecione a organização _ufpelsisop_. Você já deve ter sido inscrito na organização se preencheu seus dados corretamente no formulário disponilizado no Google Classroom.
-4. Clone o repositório que será criado com esta primeira tarefa:
-    * _git clone git@github.com/_
-5. Modifique este README.md com seus dados.
-6. Faça seu primeiro commit e envie para o Github:
+2. Peça um desconto de estudante [aqui](https://education.github.com/discount_requests/new).
+3. [Adicione uma chave pública SSH criada no seu computador no Github](https://git-scm.com/book/pt-br/v1/Git-no-Servidor-Gerando-Sua-Chave-Pública-SSH).
+4. Crie uma conta no Travis CI usando o mesmo usuário do Github, autorizando o acesso à aplicação.
+5. Use o _link_ disponibilizado no Google Classroom para entrar na tarefa do Github Classroom. 
+6. Volte ao Travis CI, clique no ícone do canto superior direito. Selecione _ufpelsisop_ na barra da esquerda e ative a chave do repositório que está listado.
+7. Clone o repositório que será criado com esta primeira tarefa (xxx deve ser substituído pelo seu nome de usuário no Github, indo na página do repositório também é possível encontrá-lo):
+    * _git clone git@github.com/ufpelsisop/tutorial-xxxx_
+8. Modifique este README.md com seus dados.
+9. Faça seu primeiro commit e envie para o Github:
     * _git add README.md_
     * _git commit -m "Preenchi dados para professor"_
     * _git push -u origin master_ 
@@ -40,14 +41,15 @@ Nesta disciplina, Github + Travis CI serão utilizados para o desenvolvimento e 
     * __IMPORTANTE__: não altere os demais arquivos!
 2. Teste executando _make_ .
 3. Quando estiver satisfeito com o resultado (i.e. funciona), mude o arquivo _travis.yml_ de nome para _.travis.yml_ (o ponto é MUITO IMPORTANTE), faça um _commit_ e envie para o Github.
-    * _git move travis.yml .travis.yml_
+    * _git mv travis.yml .travis.yml_
     * _git add fatorial.c_ 
     * _git commit -m "sua mensagem aqui"_
     * _git push -u origin master_
-4. O resultado do _build_ no Travis CI serão enviados para você (e para o professor).
+4. O resultado do _build_ no Travis CI serão enviados para o professor. Também estão disponíveis em https://travis-ci.com/ufpelsisop/tutorial-xxxx , onde xxxx é seu usuário do Github.
 
-__IMPORTANTE__: você pode fazer quantos commits locais você quiser. Somente com o _push_ que serão enviados para o servidor.
+__IMPORTANTE__: você pode fazer quantos commits locais você quiser. Somente com o _push_ que serão enviados para o servidor. Não sobrecarregue o Travis CI e o professor com _builds_ que você sabe que não funcionam. Abuso do Travis CI pode levar à revogação da conta. 
 
+## Referências
 
 - [1] http://github.com
 - [2] http://travis-ci.com

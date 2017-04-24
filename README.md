@@ -25,7 +25,7 @@ Nesta disciplina, Github + Travis CI serão utilizados para o desenvolvimento e 
 3. [Adicione uma chave pública SSH criada no seu computador no Github](https://git-scm.com/book/pt-br/v1/Git-no-Servidor-Gerando-Sua-Chave-Pública-SSH).
 4. Crie uma conta no Travis CI usando o mesmo usuário do Github, autorizando o acesso à aplicação.
 5. Use o _link_ disponibilizado no Google Classroom para entrar na tarefa do Github Classroom. 
-6. Volte ao Travis CI, clique no ícone do canto superior direito. Selecione _ufpelsisop_ na barra da esquerda e ative a chave do repositório que está listado.
+6. Volte ao Travis CI, clique no ícone do canto superior direito. Selecione _ufpelaoc2_ na barra da esquerda e ative a chave do repositório que está listado.
 7. Clone o repositório que será criado com esta primeira tarefa (xxx deve ser substituído pelo seu nome de usuário no Github, indo na página do repositório também é possível encontrá-lo):
     * _git clone git@github.com/ufpelsisop/tutorial-xxxx_
 8. Modifique este README.md com seus dados.
@@ -45,7 +45,7 @@ Nesta disciplina, Github + Travis CI serão utilizados para o desenvolvimento e 
     * _git add fatorial.c_ 
     * _git commit -m "sua mensagem aqui"_
     * _git push -u origin master_
-4. O resultado do _build_ no Travis CI serão enviados para o professor. Também estão disponíveis em https://travis-ci.com/ufpelsisop/tutorial-xxxx , onde xxxx é seu usuário do Github.
+4. O resultado do _build_ no Travis CI serão enviados para o professor. Também estão disponíveis em https://travis-ci.com/ufpelaoc2/tutorial-xxxx , onde xxxx é seu usuário do Github.
 
 __IMPORTANTE__: você pode fazer quantos commits locais você quiser. Somente com o _push_ que serão enviados para o servidor. Não sobrecarregue o Travis CI e o professor com _builds_ que você sabe que não funcionam. Abuso do Travis CI pode levar à revogação da conta. 
 

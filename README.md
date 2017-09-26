@@ -1,4 +1,4 @@
-# test
+# Tutorial Github + Travis
 
 Primeiros passos com Github e Travis CI.
 
@@ -27,7 +27,7 @@ Nesta disciplina, Github + Travis CI serão utilizados para o desenvolvimento e 
 5. Use o _link_ disponibilizado no Google Classroom para entrar na tarefa do Github Classroom. 
 6. Volte ao Travis CI, clique no ícone do canto superior direito. Selecione _ufpelaoc2_ na barra da esquerda e ative a chave do repositório que está listado.
 7. Clone o repositório que será criado com esta primeira tarefa (xxx deve ser substituído pelo seu nome de usuário no Github, indo na página do repositório também é possível encontrá-lo):
-    * _git clone git@github.com/ufpelsisop/tutorial-xxxx_
+    * _git clone git@github.com/ufpelsisop/tutaoc2_2017_2-xxxx_
 8. Modifique este README.md com seus dados.
 9. Faça seu primeiro commit e envie para o Github:
     * _git add README.md_
@@ -45,7 +45,7 @@ Nesta disciplina, Github + Travis CI serão utilizados para o desenvolvimento e 
     * _git add fatorial.c_ 
     * _git commit -m "sua mensagem aqui"_
     * _git push -u origin master_
-4. O resultado do _build_ no Travis CI serão enviados para o professor. Também estão disponíveis em https://travis-ci.com/ufpelaoc2/tutorial-xxxx , onde xxxx é seu usuário do Github.
+4. O resultado do _build_ no Travis CI serão enviados para o professor. Também estão disponíveis em https://travis-ci.com/ufpelaoc2/tucaoc2_2017_2-xxxx , onde xxxx é seu usuário do Github.
 
 __IMPORTANTE__: você pode fazer quantos commits locais você quiser. Somente com o _push_ que serão enviados para o servidor. Não sobrecarregue o Travis CI e o professor com _builds_ que você sabe que não funcionam. Abuso do Travis CI pode levar à revogação da conta. 
 

@@ -1,6 +1,16 @@
 #include "fatorial.h"
 
 int fatorial(int x){
-	/* Escreva seu código aqui */
-	return -1;
+  int fatorial=1;
+
+  if(x==0)
+    return -1;
+  else if (x < 0)
+    return -1;
+  else {
+    while (x > 0){
+      fatorial = fatorial * x;
+      x--;
+    }
+  }
 }
